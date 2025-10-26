@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Brothers - Em breve</title>
+  <style>
+    /* Reset básico */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #0f0f0f;
+      color: #ffffff;
+      font-family: "Poppins", sans-serif;
+      text-align: center;
+    }
+
+    header {
+      margin-top: 40px;
+      font-size: 2.5rem;
+      font-weight: 700;
+      letter-spacing: 2px;
+    }
+
+    main {
+      flex-grow: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.8rem;
+      opacity: 0.8;
+    }
+
+    footer {
+      margin-bottom: 40px;
+      font-size: 1rem;
+    }
+
+    a {
+      color: #ffffff;
+      text-decoration: none;
+      border-bottom: 1px solid #ffffff44;
+      transition: color 0.3s, border-color 0.3s;
+    }
+
+    a:hover {
+      color: #00aced;
+      border-color: #00aced;
+    }
+  </style>
+</head>
+<body>
+  <header>V&eacute;u M&iacute;stico</header>
+
+  <main>Em breve</main>
+
+  <footer>
+    <a href="mailto:veumistico.comercial@gmail.com">veumistico.comercial@gmail.com</a>
+    <p>© <?= date('Y') ?> Véu Místico — Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
